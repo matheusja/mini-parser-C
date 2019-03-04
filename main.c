@@ -16,7 +16,7 @@ int main() {
 	run_ast_table(AST, f, print_rpn_ast_table);
 	fprintf(f, "\n");
 	run_ast_table(AST, f, print_brn_ast_table);
-    run_ast_table(AST, NULL, destroy_ast_table);
+	run_ast_table(AST, NULL, destroy_ast_table);
 	fprintf(f, "\n");
 	return 0;
 }
